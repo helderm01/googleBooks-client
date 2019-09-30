@@ -5,7 +5,7 @@ namespace GoogleBooks.RavenDB
 {
     public class RavenDocumentStore : DocumentStore
     {
-        public RavenDocumentStore(Config conf) : base()
+        /*public RavenDocumentStore(Config conf) : base()
         {
             Urls = new[] { conf.DB.Url };
             Database = conf.DB.Database;
@@ -14,6 +14,6 @@ namespace GoogleBooks.RavenDB
                 SaveEnumsAsIntegers = true,
             };
             Initialize();
-        }
+        }*/
     }
 }
