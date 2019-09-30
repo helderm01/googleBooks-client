@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleBooks.Dominio", "..\GoogleBooks.Dominio\GoogleBooks.Dominio.csproj", "{6356DCBC-7114-4C99-B468-0B2431693CEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleBooks.API", "..\GoogleBooks.API\GoogleBooks.API.csproj", "{FFF63504-403B-4F4B-B423-CF03E5F93286}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleBooks.Aplicacao", "..\GoogleBooks.Aplicacao\GoogleBooks.Aplicacao.csproj", "{F91AFB22-2AEE-4E0E-BAB1-5C93559E545C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples", "..\GoogleBooks.Console.Sample\Samples\Samples.csproj", "{470C6338-E3B6-40F7-8B31-ECA62F1DB934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleBooks.RavenDB", "..\GoogleBooks.RavenDB\GoogleBooks.RavenDB.csproj", "{938A6DB8-D68F-4A5F-BDC1-F93A21EFC807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleBooks.Integracoes", "..\GoogleBooks.Integracoes\GoogleBooks.Integracoes.csproj", "{8864860C-F567-4224-B83B-2E1EDD2E68E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6356DCBC-7114-4C99-B468-0B2431693CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6356DCBC-7114-4C99-B468-0B2431693CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6356DCBC-7114-4C99-B468-0B2431693CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6356DCBC-7114-4C99-B468-0B2431693CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF63504-403B-4F4B-B423-CF03E5F93286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF63504-403B-4F4B-B423-CF03E5F93286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF63504-403B-4F4B-B423-CF03E5F93286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF63504-403B-4F4B-B423-CF03E5F93286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91AFB22-2AEE-4E0E-BAB1-5C93559E545C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91AFB22-2AEE-4E0E-BAB1-5C93559E545C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91AFB22-2AEE-4E0E-BAB1-5C93559E545C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91AFB22-2AEE-4E0E-BAB1-5C93559E545C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470C6338-E3B6-40F7-8B31-ECA62F1DB934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470C6338-E3B6-40F7-8B31-ECA62F1DB934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470C6338-E3B6-40F7-8B31-ECA62F1DB934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470C6338-E3B6-40F7-8B31-ECA62F1DB934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938A6DB8-D68F-4A5F-BDC1-F93A21EFC807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938A6DB8-D68F-4A5F-BDC1-F93A21EFC807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938A6DB8-D68F-4A5F-BDC1-F93A21EFC807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938A6DB8-D68F-4A5F-BDC1-F93A21EFC807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8864860C-F567-4224-B83B-2E1EDD2E68E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8864860C-F567-4224-B83B-2E1EDD2E68E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8864860C-F567-4224-B83B-2E1EDD2E68E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8864860C-F567-4224-B83B-2E1EDD2E68E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0E209C4-4F02-487E-9D51-04FED0364B71}
+	EndGlobalSection
+EndGlobal
